@@ -16,6 +16,7 @@ To run the server, execute the following command:
 
 ```bash
 python http_server.py --directory <directory_path>
+```
 Replace <directory_path> with the path to the directory from which files should be served. If no directory is specified, the server will serve files from the current directory.
 
 Once the server is running, you can send HTTP requests to it using curl or any other HTTP client. Here are some examples:
